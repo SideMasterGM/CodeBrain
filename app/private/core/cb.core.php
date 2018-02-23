@@ -8,7 +8,7 @@
 		?>
 	</head>
 	
-	<body class="external-page sb-l-c sb-r-c">
+	<body class="theme-red">
 		<?php
 			function RefreshPage(){
 				header("Refresh:0 url=".$_SERVER['PHP_SELF']."");

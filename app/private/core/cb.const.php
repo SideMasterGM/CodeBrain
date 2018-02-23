@@ -18,8 +18,9 @@
 
 	define ("PD_PUBLIC", 		$Path."/app/public");
 		define ("PD_PUBLIC_GP", 		$Path."/app/public/graphic");
-		define ("PD_PUBLIC_JS", 		$Path."/app/public/js");
 		define ("PD_PUBLIC_CSS", 		$Path."/app/public/css");
+		define ("PD_PUBLIC_JS", 		$Path."/app/public/js");
+		define ("PD_PUBLIC_PHP", 		$Path."/app/public/php");
 		define ("PD_PUBLIC_PLUGINS", 	$Path."/app/public/plugins");
 
 	define ("PDS_PUBLIC", 	"app/public");
