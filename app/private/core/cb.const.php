@@ -14,7 +14,22 @@
 	}
 
 	define ("PD_INDEX", 	$Path."/");
-	define ("PD_APP", 		$Path."/app/private");
+	define ("PD_APP", 		$Path."/app");
+
+	define ("PD_PUBLIC", 		$Path."/app/public");
+		define ("PD_PUBLIC_GP", 		$Path."/app/public/graphic");
+		define ("PD_PUBLIC_JS", 		$Path."/app/public/js");
+		define ("PD_PUBLIC_CSS", 		$Path."/app/public/css");
+		define ("PD_PUBLIC_PLUGINS", 	$Path."/app/public/plugins");
+
+	define ("PDS_PUBLIC", 	"app/public");
+		define ("PDS_PUBLIC_GP", 		"app/public/graphic");
+		define ("PDS_PUBLIC_JS", 		"app/public/js");
+		define ("PDS_PUBLIC_CSS", 		"app/public/css");
+		define ("PDS_PUBLIC_PLUGINS", 	"app/public/plugins");
+
+	define ("PD_PRIVATE", 		$Path."/app/private");
+
 	define ("PF_SOURCE", 	$Path."/source.cb");
 	define ("PD_CONFIG", 	$Path."/app/private/config");
 		define ("PD_CONNECT_SERVER", 	$Path."/app/private/config/connect_server");
@@ -25,7 +40,8 @@
 			define ("PD_INSTALL_VIEW", 		$Path."/app/private/config/install/view");
 		
 		define ("PF_CONFIG", 			$Path."/app/private/config/Config.cb");
-	define ("PD_CONTROLLER",$Path."/app/private/controller");
+
+	define ("PD_CONTROLLER", 	$Path."/app/private/controller");
 		define ("PD_CONTROLLER_JS", 	$Path."/app/private/controller/js");
 		define ("PD_CONTROLLER_PHP", 	$Path."/app/private/controller/php");
 		define ("PD_CONTROLLER_SRC", 	$Path."/app/private/controller/src");
@@ -56,6 +72,7 @@
 			define ("PDS_DESKTOP_ADMIN_PHP", 	"app/private/Desktop/Administrador/php");
 			define ("PDS_DESKTOP_ADMIN_GP", 	"app/private/Desktop/Administrador/graphic");
 			define ("PDS_DESKTOP_ADMIN_JS", 	"app/private/Desktop/Administrador/js");
+
 	define ("PD_GRAPHIC", 	$Path."/app/private/graphic");
 	define ("PD_SRC", 		$Path."/app/private/src");
 ?>
