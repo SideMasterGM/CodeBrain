@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <p>Please wait...</p>
+        <p>Por favor, espere...</p>
     </div>
 </div>
 <!-- #END# Page Loader -->
@@ -24,7 +24,7 @@
     <div class="search-icon">
         <i class="material-icons">search</i>
     </div>
-    <input type="text" placeholder="START TYPING...">
+    <input type="text" placeholder="Comienza a escribir...">
     <div class="close-search">
         <i class="material-icons">close</i>
     </div>
