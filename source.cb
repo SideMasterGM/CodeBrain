@@ -9,6 +9,8 @@
 	
 	include (@$_SESSION['getConsts']);
 	
+	$_SESSION['login'] = false;
+
 	if (@$_SESSION['login'] == true)
 		include (PF_DESKTOP);
 	else
