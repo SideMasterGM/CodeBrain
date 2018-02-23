@@ -6,8 +6,11 @@
     <link rel="icon" href="<?php echo PDS_PUBLIC; ?>/favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <link href="<?php echo PDS_PUBLIC_CSS; ?>/fonts.css" rel="stylesheet">
+    <link href="<?php echo PDS_PUBLIC_CSS; ?>/icons.css" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"> -->
 
     <!-- Bootstrap Core Css -->
     <link href="<?php echo PDS_PUBLIC_PLUGINS; ?>/bootstrap/css/bootstrap.css" rel="stylesheet">
