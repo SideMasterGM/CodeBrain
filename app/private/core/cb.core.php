@@ -15,15 +15,12 @@
 			}
 
 			# Este decide si se muestra el Sign In, Sign Up o la aplicación.
-			if (@$_SESSION['gp_signin'] == true){
+			if (@$_SESSION['gp_signin'] == true)
 				echo "Se muestra el login";
-			} else if (@$_SESSION['gp_signup'] == true){
+			else if (@$_SESSION['gp_signup'] == true)
 				echo "Se muestra el registro";
-			} else {
-				echo "Se muestra la página principal pública";
-				echo "<br/><br/>";
+			else
 				include (PD_PUBLIC_GP."/main.php");
-			}
 		?>
 	</body>
 
