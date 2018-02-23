@@ -1,5 +1,5 @@
 <div class="container-fluid">
     <div class="block-header">
-        <h2>BLANK PAGE</h2>
+        <h2>Acá se cargará el mapa</h2>
     </div>
 </div>
