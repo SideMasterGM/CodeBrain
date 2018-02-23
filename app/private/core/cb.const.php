@@ -30,6 +30,18 @@
 		define ("PDS_PUBLIC_PLUGINS", 	"app/public/plugins");
 
 	define ("PD_PRIVATE", 		$Path."/app/private");
+		define ("PD_PRIVATE_DESKTOP", 				$Path."/app/private/desktop");
+			define ("PD_PRIVATE_DESKTOP_PHP", 		$Path."/app/private/desktop/php");
+			define ("PD_PRIVATE_DESKTOP_GP", 		$Path."/app/private/desktop/graphic");
+			define ("PD_PRIVATE_DESKTOP_JS", 		$Path."/app/private/desktop/js");
+			define ("PD_PRIVATE_DESKTOP_PLUGINS", 	$Path."/app/private/desktop/plugins");
+			
+		define ("PDS_PRIVATE_DESKTOP", "app/private/desktop");
+			define ("PDS_PRIVATE_DESKTOP_PHP", 		"app/private/desktop/php");
+			define ("PDS_PRIVATE_DESKTOP_JS", 		"app/private/desktop/js");
+			define ("PDS_PRIVATE_DESKTOP_GP", 		"app/private/desktop/graphic");
+			define ("PDS_PRIVATE_DESKTOP_PLUGINS", 	"app/private/desktop/plugins");
+
 
 	define ("PF_SOURCE", 	$Path."/source.cb");
 	define ("PD_CONFIG", 	$Path."/app/private/config");
@@ -41,39 +53,10 @@
 			define ("PD_INSTALL_VIEW", 		$Path."/app/private/config/install/view");
 		
 		define ("PF_CONFIG", 			$Path."/app/private/config/Config.cb");
-
-	define ("PD_CONTROLLER", 	$Path."/app/private/controller");
-		define ("PD_CONTROLLER_JS", 	$Path."/app/private/controller/js");
-		define ("PD_CONTROLLER_PHP", 	$Path."/app/private/controller/php");
-		define ("PD_CONTROLLER_SRC", 	$Path."/app/private/controller/src");
 	
-	define ("PD_CORE", 		$Path."/app/private/core");
-		define ("PD_CORE_SERVICES", $Path."/app/private/core/Services");
-		
+	define ("PD_CORE", 		$Path."/app/private/core");		
 		define ("PF_CORE_HEAD", 		$Path."/app/private/core/cb.head.php");
 		define ("PF_CORE", 				$Path."/app/private/core/cb.core.php");
 		define ("PF_DESKTOP", 			$Path."/app/private/core/cb.desktop.php");
 		define ("PF_CORE_FOOT", 		$Path."/app/private/core/cb.foot.php");
-		
-	define ("PD_DESKTOP", 	$Path."/app/private/Desktop");
-		define ("PD_DESKTOP_ROOT", 		$Path."/app/private/Desktop/Root");
-			define ("PD_DESKTOP_ROOT_PHP", 		$Path."/app/private/Desktop/Root/php");
-			define ("PD_DESKTOP_ROOT_GP", 		$Path."/app/private/Desktop/Root/graphic");
-			define ("PD_DESKTOP_ROOT_JS", 		$Path."/app/private/Desktop/Root/js");
-		define ("PDS_DESKTOP_ROOT", "app/private/Desktop/Root");
-			define ("PDS_DESKTOP_ROOT_PHP", 	"app/private/Desktop/Root/php");
-			define ("PDS_DESKTOP_ROOT_JS", 		"app/private/Desktop/Root/js");
-			define ("PDS_DESKTOP_ROOT_GP", 		"app/private/Desktop/Root/graphic");
-		
-		define ("PD_DESKTOP_ADMIN", 	$Path."/app/private/Desktop/Administrador");
-			define ("PD_DESKTOP_ADMIN_PHP", 	$Path."/app/private/Desktop/Administrador/php");
-			define ("PD_DESKTOP_ADMIN_GP", 		$Path."/app/private/Desktop/Administrador/graphic");
-			define ("PD_DESKTOP_ADMIN_JS", 		$Path."/app/private/Desktop/Administrador/js");
-		define ("PDS_DESKTOP_ADMIN", 	"app/private/Desktop/Administrador");
-			define ("PDS_DESKTOP_ADMIN_PHP", 	"app/private/Desktop/Administrador/php");
-			define ("PDS_DESKTOP_ADMIN_GP", 	"app/private/Desktop/Administrador/graphic");
-			define ("PDS_DESKTOP_ADMIN_JS", 	"app/private/Desktop/Administrador/js");
-
-	define ("PD_GRAPHIC", 	$Path."/app/private/graphic");
-	define ("PD_SRC", 		$Path."/app/private/src");
 ?>
