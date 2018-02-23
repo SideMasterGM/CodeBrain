@@ -1,0 +1,16 @@
+<?php
+	@session_start();
+	
+	#Inclusión de constantes que contienen las rutas de acceso. 
+	@$_SESSION['getConsts'] = $_SERVER['DOCUMENT_ROOT']."/".explode("/", $_SERVER['REQUEST_URI'])[1]."app/private/core/cb.const.php";
+	
+	if (!file_exists(@$_SESSION['getConsts']))
+		@$_SESSION['getConsts'] = $_SERVER['DOCUMENT_ROOT']."/".explode("/", $_SERVER['REQUEST_URI'])[1]."/app/private/core/cb.const.php";
+	
+	include (@$_SESSION['getConsts']);
+	
+	if (@$_SESSION['login'] == true)
+		include (PF_DESKTOP);
+	else
+		include (PF_CORE);
+?>
