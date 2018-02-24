@@ -8040,3 +8040,23 @@ html.ie11 .dropdown-menu ul.menu li a {
 html.ie11 .bs-searchbox .form-control {
   width: 90%; }
 
+.img_logo {
+    width: 45px;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    border: none;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.login_img_logo {
+    width: 35px;
+    margin-right: 5px;
+    /*position: absolute;*/
+    /*left: 20px;*/
+    /*top: 12px;*/
+    border: none;
+}
