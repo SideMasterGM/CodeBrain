@@ -4,15 +4,41 @@
         <div class="navbar-header">
             <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
             <a href="javascript:void(0);" class="bars"></a>
+            <img src="<?php echo PDS_PUBLIC; ?>/images/logo.png" title="Tragua" class="img_logo" alt="Logo">
             <a class="navbar-brand" href="./">CodeBrain | Tragua</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <!-- Call Search -->
-                <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+               <!--  <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li> -->
+
+               <!--  <li style="margin-top: 15px;">
+                    <button type="button" class="btn bg-light-blue btn-circle waves-effect waves-circle waves-float js-search" data-close="true"><i class="material-icons">search</i></button>
+                </li> -->
+
+                <li style="margin: 15px 0 0 10px;">
+                    <button type="button" class="btn bg-default btn-circle waves-effect waves-circle waves-float js-search" data-close="true">
+                        <i class="material-icons">search</i>
+                    </button>
+                </li>
+
+                <li style="margin: 15px 0 0 10px;">
+                    <button type="button" class="btn btn-brown waves-effect" data-toggle="modal" data-target="#defaultModal">
+                        <i class="material-icons">account_circle</i>
+                        <span>LOGIN</span>
+                    </button>
+                </li>
+
+                <li style="margin: 15px 0 0 10px;">
+                    <button type="button" class="btn btn-brown waves-effect">
+                        <i class="material-icons">account_circle</i>
+                        <span>REGISTRARSE</span>
+                    </button>
+                </li>
+
                 <!-- #END# Call Search -->
                 <!-- Notifications -->
-                <li class="dropdown">
+               <!--  <li class="dropdown">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
                         <i class="material-icons">notifications</i>
                         <span class="label-count">7</span>
@@ -118,10 +144,10 @@
                             <a href="javascript:void(0);">View All Notifications</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <!-- #END# Notifications -->
                 <!-- Tasks -->
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
                         <i class="material-icons">flag</i>
                         <span class="label-count">9</span>
@@ -196,10 +222,75 @@
                             <a href="javascript:void(0);">View All Tasks</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <!-- #END# Tasks -->
                 <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="material-icons">more_vert</i></a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+<!-- Default Size -->
+<div class="modal fade" id="defaultModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+           <!--  <div class="modal-header">
+                <h4 class="modal-title" id="defaultModalLabel">Modal title</h4>
+            </div> -->
+            <div class="modal-body login-page">
+                
+                <div class="login-box">
+                    <div class="logo">
+                        <a href="javascript:void(0);">
+                        <img src="<?php echo PDS_PUBLIC; ?>/images/logo.png" title="Tragua" class="login_img_logo" alt="Logo"><b>Tragua</b></a>
+                        <small style="margin-top: 5px;">Disfruta de mejores privilegios</small>
+                    </div>
+                    <div class="card">
+                        <div class="body">
+                            <form id="sign_in" method="POST">
+                                <div class="msg">Para comenzar, inicia sesión</div>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="material-icons">person</i>
+                                    </span>
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" name="username" placeholder="Nombre de usuario" required autofocus>
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="material-icons">lock</i>
+                                    </span>
+                                    <div class="form-line">
+                                        <input type="password" class="form-control" name="password" placeholder="Contraseña" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-8 p-t-5">
+                                        <input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">
+                                        <label for="rememberme">Recuérdame</label>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <button class="btn btn-block bg-pink waves-effect" type="submit">INICIAR</button>
+                                    </div>
+                                </div>
+                                <div class="row m-t-15 m-b--20">
+                                    <div class="col-xs-6">
+                                        <a href="sign-up.html">Regístrate</a>
+                                    </div>
+                                    <div class="col-xs-6 align-right">
+                                        <a href="forgot-password.html">Olvidé la clave</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-link waves-effect">SAVE CHANGES</button>
+                <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div>
+    </div>
+</div>

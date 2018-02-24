@@ -4291,7 +4291,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
+    margin-left: 40px;
   }
 }
 .navbar-toggle {
@@ -5973,7 +5973,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 360px;
     margin: 30px auto;
   }
   .modal-content {
